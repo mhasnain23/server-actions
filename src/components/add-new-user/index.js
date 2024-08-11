@@ -48,7 +48,6 @@ const AddNewUser = () => {
         "/user-management"
       )
       : await addNewUserAction(addNewUserFormData, "/user-management",);
-    console.log(result);
     setOpenPopup(false)
     setAddNewUserFormData(addNewUserFormInitialState)
     setCurrentEditedID(null);
